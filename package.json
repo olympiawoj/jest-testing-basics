@@ -1,0 +1,23 @@
+{
+  "name": "jest-testing-basics",
+  "version": "1.0.0",
+  "description": "Code for Jest Crash Course by Brad Traversy",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olympiawoj/jest-testing-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olympiawoj/jest-testing-basics/issues"
+  },
+  "homepage": "https://github.com/olympiawoj/jest-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
