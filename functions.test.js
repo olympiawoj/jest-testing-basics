@@ -1,5 +1,15 @@
 const functions = require('./functions')
 
+// beforeEach(()=> initDatabase())
+// afterEach(()=> closeDatabase())
+
+beforeAll(()=> initDatabase())
+afterAll(()=> closeDatabase())
+
+const initDatabase = ()=> console.log('Database Initializied...')
+const closeDatabase = ()=> console.log('Database Closed...')
+
+
 // 1st arg: description - anything we want
 // 2nd arg: function
 
