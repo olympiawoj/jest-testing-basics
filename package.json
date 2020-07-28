@@ -19,5 +19,8 @@
   "homepage": "https://github.com/olympiawoj/jest-testing-basics#readme",
   "devDependencies": {
     "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
