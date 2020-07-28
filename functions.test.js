@@ -48,5 +48,11 @@ test('Should be under 1600', ()=> {
 
 // Regex
 test('There is no I in team', ()=>{
-    expect('teami').not.toMatch(/I/i);
+    expect('team').not.toMatch(/I/i);
+})
+
+// Arrays
+test('Admin should be in usernames', ()=> {
+    usernames = ['john', 'karen'];
+    expect(usernames).toContain('admin')
 })
